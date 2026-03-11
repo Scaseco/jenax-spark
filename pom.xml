@@ -203,7 +203,7 @@
 	</properties>
 
 	<modules>
-		<module>sansa-stack-bom</module>
+		<module>sansa-bom</module>
 		<module>sansa-test-resources</module>
 		<module>sansa-resource-testdata</module>
 		<module>sansa-resource-metadata</module>
