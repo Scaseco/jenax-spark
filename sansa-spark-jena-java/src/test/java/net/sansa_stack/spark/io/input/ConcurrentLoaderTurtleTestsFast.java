@@ -38,10 +38,10 @@ public class ConcurrentLoaderTurtleTestsFast
         // Each file is mapped to the number of  min splits and max splits(both inclusive)
         Map<String, Range<Integer>> map = new LinkedHashMap<>();
 
-        map.put("../sansa-rdf/sansa-rdf-common/src/test/resources/nato-phonetic-alphabet-example.ttl",
+        map.put("../sansa-resource-testdata/src/main/resources/nato-phonetic-alphabet-example.ttl",
                 Range.closed(1, 10));
 
-        map.put("../sansa-query/sansa-query-tests/src/main/resources/sparql11/data-r2/basic/manifest.ttl",
+        map.put("../sansa-resource-testdata/src/main/resources/sparql11/data-r2/basic/manifest.ttl",
                 Range.closed(1, 5));
 
         return FileSplitUtils.createTestParameters(map);

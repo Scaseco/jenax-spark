@@ -26,10 +26,10 @@ public class RecordReaderTrigTestsFast
         // Each file is mapped to the number of  min splits and max splits(both inclusive)
         Map<String, Range<Integer>> map = new LinkedHashMap<>();
 
-        map.put("../sansa-rdf/sansa-rdf-common/src/test/resources/nato-phonetic-alphabet-example.trig",
+        map.put("../sansa-resource-testdata/src/main/resources/nato-phonetic-alphabet-example.trig",
                 Range.closed(1, 5));
 
-        map.put("../sansa-rdf/sansa-rdf-common/src/test/resources/nato-phonetic-alphabet-example.trig.bz2",
+        map.put("../sansa-resource-testdata/src/main/resources/nato-phonetic-alphabet-example.trig.bz2",
                 Range.closed(1, 5));
 
         return FileSplitUtils.createTestParameters(map);
