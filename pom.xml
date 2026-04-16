@@ -81,101 +81,101 @@
         -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<scala.version>2.13.15</scala.version>
+		<scala.version>2.13.18</scala.version>
 		<scala.binary.version>2.13</scala.binary.version>
 		<scala.classifier>${scala.binary.version}</scala.classifier>
 		<scala.version.suffix>_${scala.binary.version}</scala.version.suffix>
 		<semanticdb.version>4.10.1</semanticdb.version>
 
 		<flink.version>1.11.2</flink.version>
-		<spark.version>4.0.1</spark.version>
+		<spark.version>4.2.0-preview4</spark.version>
 		<!-- <spark.version>4.0.0-preview2</spark.version> -->
-		<derby.version>10.15.2.0</derby.version>
+		<derby.version>10.17.1.0</derby.version>
 		<!-- Spark Testing isn't always in sync, so we have to check for latest
 		version and adapt here -->
 		<spark.testing.version>4.0.1_2.1.3</spark.testing.version>
 
-		<jakarta.xml.bind-api.version>4.0.1</jakarta.xml.bind-api.version>
-		<kryo.version>4.0.2</kryo.version>
-		<paranamer.version>2.8</paranamer.version>
-		<kryo-serializers.version>0.43</kryo-serializers.version>
-		<chill.version>0.9.5</chill.version>
-		<chill-java.version>0.9.5</chill-java.version>
+		<jakarta.xml.bind-api.version>4.0.5</jakarta.xml.bind-api.version>
+		<kryo.version>4.0.3</kryo.version>
+		<paranamer.version>2.8.3</paranamer.version>
+		<kryo-serializers.version>0.45</kryo-serializers.version>
+		<chill.version>0.10.0</chill.version>
+		<chill-java.version>0.10.0</chill-java.version>
 		<scala-java8-compat.version>0.9.1</scala-java8-compat.version>
-		<scala-parallel-collections.version>1.0.4</scala-parallel-collections.version>
-		<scala-parser-combinators.version>1.1.2</scala-parser-combinators.version>
-		<scala-xml.version>2.3.0</scala-xml.version>
-		<libthrift.version>0.13.0</libthrift.version>
-		<commons-lang3.version>3.18.0</commons-lang3.version>
-		<commons-compress.version>1.21</commons-compress.version>
+		<scala-parallel-collections.version>1.2.0</scala-parallel-collections.version>
+		<scala-parser-combinators.version>1.2.0-RC2</scala-parser-combinators.version>
+		<scala-xml.version>2.4.0</scala-xml.version>
+		<libthrift.version>0.22.0</libthrift.version>
+		<commons-lang3.version>3.20.0</commons-lang3.version>
+		<commons-compress.version>1.28.0</commons-compress.version>
 		<jaxb-core.version>2.3.0.1</jaxb-core.version>
-		<jaxb-impl.version>2.3.0.1</jaxb-impl.version>
-		<picocli.version>4.6.3</picocli.version>
-		<httpcore.version>4.4.13</httpcore.version>
+		<jaxb-impl.version>2.4.0-b180830.0438</jaxb-impl.version>
+		<picocli.version>4.7.7</picocli.version>
+		<httpcore.version>4.4.16</httpcore.version>
 		<univocity-parsers.version>2.9.0</univocity-parsers.version>
-		<commons-codec.version>1.14</commons-codec.version>
+		<commons-codec.version>1.21.0</commons-codec.version>
 		<sparkbench.version>2.3.0_0.4.0</sparkbench.version>
 		<specs.version>1.4.3</specs.version>
 		<jena-elephas-io.version>3.17.0</jena-elephas-io.version>
-		<graph-core.version>2.0.0</graph-core.version>
+		<graph-core.version>2.0.3</graph-core.version>
 		<graph-dot.version>2.0.0</graph-dot.version>
-		<jgrapht-core.version>1.2.0</jgrapht-core.version>
-		<jgrapht-io.version>1.2.0</jgrapht-io.version>
-		<jgrapht-ext.version>1.2.0</jgrapht-ext.version>
-		<calcite-core.version>1.16.0</calcite-core.version>
-		<shapeless.version>2.3.3</shapeless.version>
-		<guice.version>4.0</guice.version>
-		<guice-assistedinject.version>4.0</guice-assistedinject.version>
-		<guice-multibindings.version>4.0</guice-multibindings.version>
+		<jgrapht-core.version>1.5.3</jgrapht-core.version>
+		<jgrapht-io.version>1.5.3</jgrapht-io.version>
+		<jgrapht-ext.version>1.5.3</jgrapht-ext.version>
+		<calcite-core.version>1.41.0</calcite-core.version>
+		<shapeless.version>2.4.0-M1</shapeless.version>
+		<guice.version>4.2.3</guice.version>
+		<guice-assistedinject.version>4.2.3</guice-assistedinject.version>
+		<guice-multibindings.version>4.2.3</guice-multibindings.version>
 		<hermit.version>1.4.5.519</hermit.version>
-		<isolation-forest.version>3.2.3</isolation-forest.version>
-		<spark-gremlin.version>3.7.2</spark-gremlin.version>
-		<junit.version>4.13.1</junit.version>
-		<scalatest.version>3.1.4</scalatest.version>
-		<junit-4-12.version>3.1.4.0</junit-4-12.version>
-		<flexmark.version>0.36.8</flexmark.version>
-		<specs2-core.version>4.10.5</specs2-core.version>
-		<specs2-junit.version>4.10.5</specs2-junit.version>
-		<scala-logging.version>3.9.2</scala-logging.version>
-		<scopt.version>4.1.0</scopt.version>
-		<config.version>1.4.1</config.version>
-		<play.version>2.8.2</play.version>
+		<isolation-forest.version>3.2.14</isolation-forest.version>
+		<spark-gremlin.version>3.8.1</spark-gremlin.version>
+		<junit.version>4.13.2</junit.version>
+		<scalatest.version>3.3.0-SNAP4</scalatest.version>
+		<junit-4-12.version>3.3.0.0-SNAP2</junit-4-12.version>
+		<flexmark.version>0.64.8</flexmark.version>
+		<specs2-core.version>4.23.0</specs2-core.version>
+		<specs2-junit.version>4.23.0</specs2-junit.version>
+		<scala-logging.version>3.9.6</scala-logging.version>
+		<scopt.version>4.1.1-M3</scopt.version>
+		<config.version>1.4.6</config.version>
+		<play.version>2.9.10</play.version>
 		<json.version>20180130</json.version>
-		<fastutil.version>8.1.0</fastutil.version>
-		<commons-rdf-jena.version>0.5.0</commons-rdf-jena.version>
+		<fastutil.version>8.5.18</fastutil.version>
+		<commons-rdf-jena.version>0.5.0-ser</commons-rdf-jena.version>
 		<scalaj-http.version>2.4.2</scalaj-http.version>
-		<jsqlparser.version>4.3</jsqlparser.version>
-		<aws-java-sdk-s3.version>1.11.882</aws-java-sdk-s3.version>
-		<mysql-connector-java.version>8.0.22</mysql-connector-java.version>
+		<jsqlparser.version>4.9</jsqlparser.version>
+		<aws-java-sdk-s3.version>1.12.797</aws-java-sdk-s3.version>
+		<mysql-connector-java.version>8.0.33</mysql-connector-java.version>
 
 		<!-- Javax -->
 		<!-- <jersey.version>2.35</jersey.version> -->
 
 		<!-- Jakarta -->
-		<jersey.version>3.1.3</jersey.version>
+		<jersey.version>3.1.11</jersey.version>
 
-		<hadoop.version>3.4.0</hadoop.version>
+		<hadoop.version>3.5.0</hadoop.version>
 		<!-- <hadoop.version>2.8.5</hadoop.version> -->
 		<hadoop.common.version>${hadoop.version}</hadoop.common.version>
 
 		<jsr203hadoop.version>1.0.3</jsr203hadoop.version>
 
-		<slf4j.version>2.0.9</slf4j.version>
+		<slf4j.version>2.1.0-alpha1</slf4j.version>
 		<!-- <slf4j.version>1.7.36</slf4j.version> -->
 
 		<!-- reuse log4j from hadoop -->
 		<!-- <log4j.version>2.21.0</log4j.version> -->
 
 		<!-- Our util projects (mainly maintained by Claus) -->
-		<aksw.commons.version>0.9.11-SNAPSHOT</aksw.commons.version>
+		<aksw.commons.version>0.9.12</aksw.commons.version>
 		<jena.version>6.1.0-SNAPSHOT</jena.version>
 		<jenax.version>6.1.0-1-SNAPSHOT</jenax.version>
 		<rmltk.version>6.1.0-1-SNAPSHOT</rmltk.version>
 
-		<rdf4j.version>3.3.0</rdf4j.version>
+		<rdf4j.version>3.7.7</rdf4j.version>
 
-		<ver.netty>4.1.74.Final</ver.netty>
-		<ver.jackson>2.13.3</ver.jackson>
+		<ver.netty>4.2.12.Final</ver.netty>
+		<ver.jackson>2.21.2</ver.jackson>
 		<bsbm.version>3.1.10</bsbm.version>
 
 		<!-- Jetty is pulled in from at least sparqlify - the current dep
@@ -185,10 +185,10 @@
 		<!-- <mortbay.jetty.version>6.1.26</mortbay.jetty.version> -->
 
 		<!-- origin: sansa-query -->
-		<httpcomponents.version>4.5.13</httpcomponents.version>
+		<httpcomponents.version>4.5.14</httpcomponents.version>
 
 
-		<owlapi.version>5.1.17</owlapi.version>
+		<owlapi.version>5.5.1</owlapi.version>
 
 		<ontop.version>4.3.0-2</ontop.version>
 		<sparqlify.version>0.9.9-SNAPSHOT</sparqlify.version>
@@ -216,24 +216,24 @@
 		<spark.deps.scope>compile</spark.deps.scope>
 		<flink.deps.scope>compile</flink.deps.scope>
 
-		<maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
-		<maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
-		<maven-source-plugin.version>3.3.0</maven-source-plugin.version>
-		<maven-shade-plugin.version>3.5.1</maven-shade-plugin.version>
-		<maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
+		<maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
+		<maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+		<maven-source-plugin.version>3.4.0</maven-source-plugin.version>
+		<maven-shade-plugin.version>3.6.2</maven-shade-plugin.version>
+		<maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
 		<maven-release-plugin.version>3.0.1</maven-release-plugin.version>
-		<maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-		<maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
-		<maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
-		<maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
-		<maven-surefire-report-plugin.version>2.20</maven-surefire-report-plugin.version>
-		<maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
-		<maven-site-plugin.version>3.6</maven-site-plugin.version>
+		<maven-resources-plugin.version>3.5.0</maven-resources-plugin.version>
+		<maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
+		<maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
+		<maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
+		<maven-surefire-report-plugin.version>2.22.2</maven-surefire-report-plugin.version>
+		<maven-assembly-plugin.version>3.8.0</maven-assembly-plugin.version>
+		<maven-site-plugin.version>3.21.0</maven-site-plugin.version>
 
-		<build-helper-maven-plugin.version>3.5.0</build-helper-maven-plugin.version>
-		<gitflow-maven-plugin.version>1.9.0</gitflow-maven-plugin.version>
+		<build-helper-maven-plugin.version>3.6.1</build-helper-maven-plugin.version>
+		<gitflow-maven-plugin.version>1.21.0</gitflow-maven-plugin.version>
 		<maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
-		<nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+		<nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
 
 		<maven-scala-plugin.version>2.15.2</maven-scala-plugin.version>
 		<scala-maven-plugin.version>4.9.10</scala-maven-plugin.version>
@@ -241,18 +241,18 @@
 		<maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
 		<versions-maven-plugin.version>2.21.0</versions-maven-plugin.version>
 		<versioneye-maven-plugin.version>3.11.4</versioneye-maven-plugin.version>
-		<maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
-		<jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
-		<jdepend-maven-plugin.version>2.0</jdepend-maven-plugin.version>
-		<maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
-		<maven-pmd-plugin.version>3.13.0</maven-pmd-plugin.version>
+		<maven-dependency-plugin.version>3.10.0</maven-dependency-plugin.version>
+		<jacoco-maven-plugin.version>0.8.14</jacoco-maven-plugin.version>
+		<jdepend-maven-plugin.version>2.2.0</jdepend-maven-plugin.version>
+		<maven-failsafe-plugin.version>2.22.2</maven-failsafe-plugin.version>
+		<maven-pmd-plugin.version>3.28.0</maven-pmd-plugin.version>
 		<cobertura-maven-plugin.version>2.7</cobertura-maven-plugin.version>
-		<scalafix-maven-plugin_2.13.version>0.1.10_0.11.0</scalafix-maven-plugin_2.13.version>
+		<scalafix-maven-plugin_2.13.version>0.1.12_0.14.6</scalafix-maven-plugin_2.13.version>
 		<scalastyle-maven-plugin.version>1.0.0</scalastyle-maven-plugin.version>
 		<coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
 
-		<jdeb.version>1.8</jdeb.version>
-		<rpm.version>1.8.0</rpm.version>
+		<jdeb.version>1.14</jdeb.version>
+		<rpm.version>1.13.0</rpm.version>
 
 		<!-- Common argLines for java and scala test runners -->
 		<sansa.argLine>
@@ -337,11 +337,13 @@
 							<arg>-quickfix:any</arg>
 						</args>
 						<compilerPlugins>
+<!--
 							<compilerPlugin>
 								<groupId>org.scalameta</groupId>
 								<artifactId>semanticdb-scalac_${scala.version}</artifactId>
 								<version>${semanticdb.version}</version>
 							</compilerPlugin>
+-->
 						</compilerPlugins>
 					</configuration>
 					<executions>
@@ -1751,6 +1753,16 @@
 			<dependency>
 				<groupId>org.apache.derby</groupId>
 				<artifactId>derby</artifactId>
+				<version>${derby.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.derby</groupId>
+				<artifactId>derbyshared</artifactId>
+				<version>${derby.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.derby</groupId>
+				<artifactId>derbytools</artifactId>
 				<version>${derby.version}</version>
 			</dependency>
 
