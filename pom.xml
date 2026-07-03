@@ -168,8 +168,8 @@
 
 		<!-- Our util projects (mainly maintained by Claus) -->
 		<aksw.commons.version>0.9.12</aksw.commons.version>
-		<jena.version>6.1.0-SNAPSHOT</jena.version>
-		<jenax.version>6.1.0-1-SNAPSHOT</jenax.version>
+		<jena.version>6.1.0</jena.version>
+		<jenax.version>6.1.0-2-SNAPSHOT</jenax.version>
 		<rmltk.version>6.1.0-1-SNAPSHOT</rmltk.version>
 
 		<rdf4j.version>3.7.7</rdf4j.version>
