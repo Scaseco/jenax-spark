@@ -157,6 +157,7 @@
 			<scope>test</scope>
 		</dependency>
 
+        <!--
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-rdf-jena</artifactId>
@@ -167,6 +168,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		-->
 	</dependencies>
 
 	<profiles>
